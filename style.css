@@ -1,28 +1,47 @@
-h1{
+body{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 35px;
-    color: #1E90FF;
-    background-color: #483D8B;
-    margin-top: 0%;
-    margin-left: 0%;
-    margin-right: 0%;
-    padding: 30px 30px 30px 30px;
+    margin: 0%;
+    background: #ccc;
+}
+.banner{
+    background-image: url(fundo.jpg);
+    height: 500px;
+}
+.info1{
     text-align: center;
+    color: white;
+    margin-top: 150px;
 }
-h2{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    color: #1E90FF;
-    padding: 30px 30px 30px 45%;
-    width: 120px;
+.info1 h1{
+    text-transform: uppercase;
+    font-size: 45px;
+    text-shadow: 4px 4px 4px rgb(41, 41, 160);
+}
+main{
+    width: 80%;
+    margin: auto;
+}
+.content-section{
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+}
+.info1 img{
+    float: right;
+    height: 500px;
+    width: 300px;
+}
+footer{
+    background-color: rgb(78, 76, 76);
+    padding: 30px;
     text-align: center;
+    text-shadow: 4px 4px 4px rgb(41, 41, 160);
+    color: white;
 }
-.corprimary{
-    background-color:#483D8B ;
+.card{
+    text-align: center;
+    margin: 30px;
 }
-.foto{
-    height: 200%;
-    width: 20%;
-    max-width: 20%;
-    border-radius: 40%;
+.card2{
+    text-align: left;
 }
