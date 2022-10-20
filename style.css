@@ -21,8 +21,8 @@ body{
     padding: 10px;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 15px;
-    letter-spacing: 2px;
+    font-size: 12px;
+    letter-spacing: 3px;
     background: rgba(59, 66, 107, 0.5);
 }
 .banner nav a:hover{
@@ -30,22 +30,23 @@ body{
 }
 .banner nav ul{
     text-align: right;
-    margin: 20px 5px 0 0;
+    margin: 10px 5px 0 0;
 }
 .foto{
-    width: 328px;
+    width: 329px;
     height: 410px;
     float: right;
     padding-top: 0px;
     border: 2px solid white;
     margin-top: 10px;
+    margin-right: 4px;
 }
-.info1{
+.info{
     text-align: center;
     color: white;
     margin-top: 150px;
 }
-.info1 h1{
+.info h1{
     text-transform: uppercase;
     font-size: 45px;
     text-shadow: 4px 4px 4px rgb(41, 41, 160);
@@ -65,4 +66,15 @@ footer{
     
     color: white;
     font-size: 20px;
+}
+.SB h2{
+    background-color: #ccc;
+    font-size: 23px;
+    text-decoration: underline;
+}
+.SB p{
+    text-align: justify;
+}
+.visual{
+    font-weight: bold;
 }
